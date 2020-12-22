@@ -65,10 +65,5 @@ public class NumberWizard : MonoBehaviour
 
 
     }
-    void QuitGame()
-    {
-        
-    }
-
 
 }

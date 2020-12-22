@@ -274,6 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169399775}
   - component: {fileID: 1169399774}
+  - component: {fileID: 1169399776}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -290,7 +291,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1169399773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3cdc2647919d4e0bba346e3f7169481, type: 3}
+  m_Script: {fileID: 11500000, guid: a003123f0c9e342f8b4dc71d217ddca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1169399775
@@ -307,6 +308,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1169399776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169399773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a003123f0c9e342f8b4dc71d217ddca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1474281609
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +538,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1169399774}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadNextScene
+        m_MethodName: LoadNextScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
