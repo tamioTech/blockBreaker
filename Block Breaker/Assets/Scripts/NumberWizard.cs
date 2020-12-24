@@ -65,9 +65,9 @@ public class NumberWizard : MonoBehaviour
 
 
     }
-    void QuitGame()
+    public void QuitGame()
     {
-        
+        Application.Quit();
     }
 
 
