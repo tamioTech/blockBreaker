@@ -8,6 +8,5 @@ public class loseCollider : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         SceneManager.LoadScene("Game Over");
-        FindObjectOfType<GameStatus>().AddToScore();
     }
 }
