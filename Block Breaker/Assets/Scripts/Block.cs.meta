@@ -3,7 +3,9 @@ guid: 7de8d32917749443685011823f011c83
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - breakSound: {instanceID: 0}
+  - blockSparklesVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
