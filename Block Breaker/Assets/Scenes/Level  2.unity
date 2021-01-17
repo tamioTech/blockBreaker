@@ -3011,6 +3011,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3202257564223701112, guid: 07a21ee3471304024889ee0357eee362, type: 3}
+      propertyPath: isAutoPlayEnabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3523641947528778370, guid: 07a21ee3471304024889ee0357eee362, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 594
